@@ -1,0 +1,9 @@
+﻿
+
+@foreach (var author in Model.authors)
+{
+    <tr>
+        <th scope="col">@author.Id</th>
+        <th scope="col">@author.Fullname</th>
+    </tr>
+}

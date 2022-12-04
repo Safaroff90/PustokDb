@@ -1,0 +1,11 @@
+﻿
+
+
+
+@foreach (var genre in Model.genres)
+{
+    <tr>
+        <th scope="col">@genre.Id</th>
+        <th scope="col">@genre.Name</th>
+    </tr>
+}
